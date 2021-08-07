@@ -10,3 +10,5 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 #command to start the container
 CMD ["python","app.py"]
+
+#To create an image "docker image build -t hello ."
